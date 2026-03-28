@@ -1,4 +1,4 @@
-# ⚛ QuantumVision
+# QuantumVision
 ### AI + Quantum Digital Twin Microscope for Material Analysis
 
 ---
@@ -15,9 +15,6 @@ python app.py
 # 3 — Open browser
 http://localhost:5050
 ```
-
-> ✅ Works on Windows, macOS, Linux.
-> ✅ No other setup needed — all paths are absolute.
 
 ---
 
@@ -37,7 +34,7 @@ QuantumVision/
 
 ---
 
-## 🎮 How to Use
+## How to Use
 
 | Button | Action |
 |--------|--------|
@@ -51,7 +48,7 @@ QuantumVision/
 
 ---
 
-## 📷 Input Sources
+## Input Sources
 
 | Source | How |
 |--------|-----|
@@ -74,7 +71,7 @@ q2: ─[H]─────────X──■──────────M
 
 ---
 
-## ⚠ Offline / Demo Mode
+## Offline / Demo Mode
 
 All buttons degrade gracefully if the backend is unreachable:
 - **FULL DEMO** works 100% client-side — no backend needed
@@ -83,7 +80,7 @@ All buttons degrade gracefully if the backend is unreachable:
 
 ---
 
-## 🛠 Troubleshooting
+## Troubleshooting
 
 | Problem | Fix |
 |---------|-----|
