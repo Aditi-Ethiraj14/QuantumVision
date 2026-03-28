@@ -3,7 +3,8 @@
 
 An integrated AI–Quantum Digital Twin system for real-time material analysis and defect prediction, combining OpenCV-based image processing, Three.js 3D visualization, and Qiskit-powered quantum simulation. The system supports multiple input sources including webcams, embedded camera modules, and image uploads, and follows a pipeline of encoding, superposition, entanglement, phase transformation, and measurement to predict structural stability, crack propagation, and failure probabilities.
 
-![Uploading Screenshot 2026-03-28 212917.png…]()
+<img width="1739" height="1378" alt="Screenshot 2026-03-28 212917" src="https://github.com/user-attachments/assets/1c6c259f-20ef-4a6c-8855-66ba8630d63d" />
+
 
 ---
 
