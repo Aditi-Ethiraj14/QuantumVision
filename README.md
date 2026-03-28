@@ -1,9 +1,13 @@
 # QuantumVision
 ### AI + Quantum Digital Twin Microscope for Material Analysis
 
+An integrated AI–Quantum Digital Twin system for real-time material analysis and defect prediction, combining OpenCV-based image processing, Three.js 3D visualization, and Qiskit-powered quantum simulation. The system supports multiple input sources including webcams, embedded camera modules, and image uploads, and follows a pipeline of encoding, superposition, entanglement, phase transformation, and measurement to predict structural stability, crack propagation, and failure probabilities.
+
+![Uploading Screenshot 2026-03-28 212917.png…]()
+
 ---
 
-## ▶ Quick Start (3 steps)
+## Quick Start (3 steps)
 
 ```bash
 # 1 — Install Python packages
@@ -18,7 +22,7 @@ http://localhost:5050
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 QuantumVision/
