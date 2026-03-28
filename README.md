@@ -63,7 +63,7 @@ QuantumVision/
 
 ---
 
-## ⚛ Quantum Circuit
+## Quantum Circuit
 
 ```
 q0: ─[Ry(σ)]──■──────────[Rz]──M
