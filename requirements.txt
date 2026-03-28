@@ -1,0 +1,7 @@
+flask>=2.3.0
+flask-cors>=4.0.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+qiskit>=1.0.0
+qiskit-aer>=0.14.0
