@@ -5,10 +5,27 @@ An integrated AI–Quantum Digital Twin system for real-time material analysis a
 
 <img width="1739" height="1378" alt="Screenshot 2026-03-28 212917" src="https://github.com/user-attachments/assets/1c6c259f-20ef-4a6c-8855-66ba8630d63d" />
 
+---
+## 🎥 Demo Video
+
+[Watch the Demo](https://drive.google.com/file/d/1J5TAB8SyKQpUzAk_98fLHAhV-Zv2Xa3M/view?usp=sharing)
 
 ---
 
-## Quick Start (3 steps)
+## Tech Stack
+
+| Technology  | Usage in the Project |
+|------------|---------------------|
+| OpenCV     | Denoising, CLAHE, Canny Edge Detection, Sobel Depth Map |
+| Three.js   | 3D Mesh Rendering |
+| Qiskit Aer | 3-qubit Quantum Circuit, 1024 Shots |
+| Flask      | Python Backend |
+| JavaScript | Digital Twin Physics Simulation, Classical Quantum Model |
+| HTML/CSS   | Frontend UI |
+
+---
+
+## Quick Start
 
 ```bash
 # 1 — Install Python packages
@@ -33,9 +50,6 @@ QuantumVision/
 └── templates/
     └── index.html       ← Full frontend (Three.js UI)
 ```
-
-> **Do NOT rename or move `templates/index.html`.**
-> The backend reads it by absolute path relative to `app.py`.
 
 ---
 
@@ -76,21 +90,4 @@ q2: ─[H]─────────X──■──────────M
 
 ---
 
-## Offline / Demo Mode
-
-All buttons degrade gracefully if the backend is unreachable:
-- **FULL DEMO** works 100% client-side — no backend needed
-- Local JS physics simulation
-- Classical quantum probability approximation
-
----
-
-## Troubleshooting
-
-| Problem | Fix |
-|---------|-----|
-| "Cannot connect to backend" | Make sure `python app.py` is running |
-| Webcam permission denied | Allow camera in browser settings |
-| `cv2` not found | Run `pip install opencv-python-headless` |
-| Qiskit errors | Quantum uses classical fallback automatically |
-| Port 5050 in use | Edit last line of `app.py`: change `port=5050` |
+Made with ❤️ by Team Techno Voyagers
